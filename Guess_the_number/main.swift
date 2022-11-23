@@ -44,7 +44,7 @@ func game() { // game function
     let secretNumber = Int.random(in: 1...100) // generate a secret number
     print("🤔 Guess a number from 1-100")
     print("🧠 Choose difficult: EASY or HARD?")
-    print(secretNumber)
+    // print(secretNumber) - hidden(only for testing)
     var attempt = 0
     let difficult = String(readLine() ?? "").lowercased().trimed() // choice of difficulty
     switch difficult {
